@@ -1,12 +1,3 @@
-CREATE TABLE toy(
-    id SERIAL PRIMARY KEY,
-    name TEXT NOT NULL,
-    price NUMERIC NOT NULL);
-
-INSERT INTO toy (name, price)
-VALUES ('duck', 1.49);
-
-
 
 CREATE TABLE etf (
     etfid SERIAL PRIMARY KEY,
