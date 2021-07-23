@@ -1,0 +1,9 @@
+DB_HOST = 'localhost'
+DB_USER = 'postgres'
+DB_PASS = 'password'
+DB_NAME = 'etfdb'
+API_URL = 'https://paper-api.alpaca.markets'
+SIMFIN_URL = "https://simfin.com/api/"
+API_KEY = 'API_KEY'
+API_SECRET = 'API_SECRET'
+SIMFIN_API_KEY = 'SIMFIN_API_KEY'
