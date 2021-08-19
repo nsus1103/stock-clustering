@@ -2,6 +2,7 @@
 To run use following command in terminal
 $ streamlit run app.py
 """
+
 import utils
 import pandas as pd
 import streamlit as st
