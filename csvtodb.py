@@ -1,4 +1,4 @@
-import functions
+import utils
 import pandas as pd
 import os
 
@@ -12,4 +12,4 @@ print(f"{len(stock_populated)} stocks populated")
 
 for stock in stock_populated:
     stockdf = pd.read_csv(f'./S&P500/{stock}.csv')
-    functions.write_to_db(stock, stockdf)
+    utils.write_to_db(stock, stockdf)
