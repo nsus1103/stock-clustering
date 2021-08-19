@@ -12,3 +12,7 @@ The data is ingested into pandas dataframe using Dynamic SQL (psycopg2) and unsu
 To create the postgres instance on docker
 
 >docker pull postgres
+
+To start a postgres instance
+
+$ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
