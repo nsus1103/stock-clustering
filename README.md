@@ -37,7 +37,15 @@ Create a database and required tables by running the script etfdb.sql or by copy
 
 ## 5. Populating the tables
 
-Run the script
+Run the script populate-stocks.py and populate-timeseries.py to pull all stocks and price data for alst ten years using API. This will take a few hours to complete depending on whether account associated with API is free or premium
+
+## 6. Webpage
+
+The script app.py is the front end design and can be run by following command
+
+> streamlit run app.py
+
+
 
 
 
