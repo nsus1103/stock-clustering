@@ -9,7 +9,7 @@ is stored as a csv and later populated into a SQL table. The database contains o
 ETF composition etc.<br>
 The data is ingested into pandas dataframe using Dynamic SQL (psycopg2) and unsupervised clustering algorithm <br>is implemented.
 
-## 1. Setting up Database
+## 1. Setting up Postgres Instance
 To create the postgres instance on docker
 
 >docker pull postgres
@@ -30,8 +30,14 @@ https://simfin.com/data/api
 Enter the postgres database credentials and the API key in the config.py template file in the repository
 
 
+## 4. Setting the Postgres database
+
+Create a database and required tables by running the script etfdb.sql or by copy pasting the scripts in the terminal.
 
 
+## 5. Populating the tables
+
+Run the script
 
 
 
