@@ -1,3 +1,5 @@
+# Optional script to speed up REST API calls using asynchronous calls
+
 import asyncio
 import aiohttp
 import asyncpg
