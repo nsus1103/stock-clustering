@@ -8,3 +8,7 @@ faster HTML response. The data is OHLCV data for the stocks in the PostgreSQL po
 is stored as a csv and later populated into a SQL table. The database contains other tables like stock symbol, <br>
 ETF composition etc.<br>
 The data is ingested into pandas dataframe using Dynamic SQL (psycopg2) and unsupervised clustering algorithm <br>is implemented.
+
+To create the postgres instance on docker
+
+>docker pull postgres
