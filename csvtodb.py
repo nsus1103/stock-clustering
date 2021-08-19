@@ -1,3 +1,5 @@
+# Script to load csv to postgres database
+
 import utils
 import pandas as pd
 import os
