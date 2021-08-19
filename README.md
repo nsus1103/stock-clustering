@@ -23,7 +23,7 @@ The postgres instance name and password will be used to connect to the database 
 ## 2. Setting up API
 
 Create account with SIMFIN and Alphavantage for the api key.
-https://simfin.com/data/api
+https://simfin.com/data/api <br>
 https://www.alphavantage.co/
 
 ## 3. Setup config
