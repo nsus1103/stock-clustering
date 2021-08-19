@@ -64,7 +64,6 @@ Click on start training to run the model. Once completed, we can view the cluste
 
 
 ![image](https://user-images.githubusercontent.com/33731048/130132966-00559e16-fbb3-4efe-b3e0-16c50c569d5e.png)
-![image](https://user-images.githubusercontent.com/33731048/130133069-9fd867c7-f6de-44d2-9487-d6eabb11ab19.png)
 
 
 
